@@ -13,11 +13,11 @@ The goal of this project is to mimic the behavior of the standard C printf funct
 Usage
 
 This project includes a Makefile to automate the compilation process. The available commands are:
-Command	Action
-make	Compiles the source files and creates the library libftprintf.a.
-make clean	Removes all object files (.o).
-make fclean	Removes all object files and the compiled library file.
-make re	Performs a full re-compile (cleans and builds again).
+
+make            Compiles the source files and creates the library libftprintf.a.
+make clean      Removes all object files (.o).
+make fclean	    Removes all object files and the compiled library file.
+make re	        Performs a full re-compile (cleans and builds again).
 
 To use this library in your own C project, include the header and compile with the .a file:
 
